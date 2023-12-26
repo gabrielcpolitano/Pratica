@@ -9,5 +9,6 @@ d = input('Digite o nome do Aluno: ')
 alunos = a, b, c, d
 
 ordem = random.sample(alunos, 4)
+#ordem = random.sample(alunos, len(alunos))
 
 print(f'Ordem de apresentação: {ordem}')
